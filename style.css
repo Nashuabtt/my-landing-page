@@ -1,0 +1,260 @@
+
+
+body{
+    background-image: url("images/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(251, 184, 6);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+   }
+header {background-color: white;}
+.card-body{
+     
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+   box-shadow: 0px 0px 10px #bbb;
+   padding: 1px 50px 150px 50px;
+  ;
+}
+.card-body {margin-left:90px;
+text-align: center;
+}
+.card-body p{padding-top: 40px;}
+.card-body p {margin-right: 50px; margin-left: 50px;}
+.card-body div{
+    width: 90%;
+}
+
+.nav img {width: 150px;
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    list-style:none;
+}
+.nav li a {color: black;
+font-family: Helvetica;}
+
+.nav a {
+    padding: 1em;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+}
+.nav .menu {
+    display: flex; 
+    flex-direction : row; 
+    justify-content: safe right; 
+}
+
+.buttondown {width: 40%;
+  display: align-vertically;
+padding-top: 50px;
+margin-left: 300px;
+
+
+  font-family: Arial;
+
+}
+
+
+.button-5, .button-6 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5, .button-6:hover,
+.button-5, .button-6:focus {
+  background-color: rgb(251, 184, 6);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5, .button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-5, .button-6:active {
+  background-color: rgb(251, 184, 6);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+ .button-6 {margin-bottom: 70px;
+  margin-top: -40px}
+.header {
+    background: rgba(	255, 255, 255 , .8);
+    text-align: center;
+}
+
+.header .image-container {
+max-width: 90%;
+  margin-left: 7rem;
+  padding-top: 7rem;
+
+}
+
+.header .text-container {
+    margin-bottom: 7rem;
+    padding-top: 7rem;
+
+    margin-left: 7rem ;
+}
+
+.text-container h1{color: black;
+text-align: left ;
+}
+
+
+.header .services {
+    padding-top: 4.5rem;
+    padding-bottom: 0.375rem;
+    background: rgba(0, 0, 0, .01);
+} 
+
+.header .card {
+    margin-bottom: 4rem;
+    border: 0;
+    background-color: transparent;
+}
+
+
+.banner {
+    flex: 50%;
+    min-width: 40%;
+    max-width: 50%;
+    float: left;
+  
+  }
+
+
+  .row{
+      clear: left;
+      width: 90%;
+  }
+
+  .img-fluid{
+      width: 100%;
+  }
+
+
+li {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  min-height: 0.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+li:hover,
+li:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+li:hover {
+  transform: translateY(-1px);
+}
+
+li:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+h1 { color: black; font-family: 'Roboto', sans-serif; font-size: 35px; font-weight: bold; letter-spacing: -1px; text-align: center; }
+h3 { color: rgb(255, 208, 20); font-family: 'Roboto', sans-serif; font-size: 35px; font-weight: bold; letter-spacing: -1px; margin-left: 100px; padding-bottom: 40px; text-align: center; }
+
+h2 { color:#ffd166 ; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; text-align: center; }
+
+
+p { color: black; font-family: 'Outfit', sans-serif; font-size: 14px; text-align: justify; text-justify: inter-word; }
+
+.parapic{
+  display: flex;
+  width: 100%;
+}
+.parapic img{
+  float: right;
+  width: 600px;
+  padding-top: 50px;
+border-radius: 60%;
+margin-right: -200px;
+}
+
+.parapic p{
+  width: 100%;
+  margin-left: 70px;
+  
+
+}
+.parapic2{
+  display: flex;
+  width: 100%;
+}
+.parapic2 img{  float: right;
+  width: 600px;
+  padding-top: 50px;
+border-radius: 60%;
+margin-left: -100px;}
+ol {text-align: right;
+padding-right: 30px;
+margin-bottom: 20px;}
+
